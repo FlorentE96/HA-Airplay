@@ -1,4 +1,4 @@
-FROM mikebrady/shairport-sync:4.3.7
+FROM mikebrady/shairport-sync:latest
 
 RUN apk add --no-cache envsubst jq
 
