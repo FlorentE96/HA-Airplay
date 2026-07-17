@@ -1,7 +1,7 @@
-name: "Airplay 2 for Home Assistant"
+name: "Airplay 2 for Home Assistant - Flo"
 description: "Adds Airplay 2 capabilities to Home Assistant"
-url: https://github.com/JohannVR/JohannVRs-Home-Assistant-Addons/tree/main/Airplay2
-version: "2.0.3"
+url: https://github.com/FlorentE96/HA-Airplay/tree/main/Airplay2
+version: "2.0.4"
 slug: "airplay2"
 init: false
 arch:
@@ -12,7 +12,7 @@ boot: "auto"
 host_network: true
 audio: true
 options:
-  airplay_name: "Hass.io"
+  airplay_name: "Bedroom"
   offset: "0.0"
   interpolation: "auto"
   enabled: "no"
@@ -21,7 +21,7 @@ options:
   mqtt_password: "password"
   mqtt_publish_cover: "no"
   output_backend: "pa"
-  default_airplay_volume: "-24.0"
+  default_airplay_volume: "-12.0"
 schema:
   airplay_name: str
   offset: str
@@ -46,4 +46,4 @@ schema:
   volume_control_combined_hardware_priority: str?
   drift_tolerance_in_seconds: str?
   resync_threshold_in_seconds: str?
-image: ghcr.io/johannvr/{arch}-ha-airplay2
+image: ghcr.io/florente96/{arch}-ha-airplay2

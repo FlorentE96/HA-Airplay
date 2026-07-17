@@ -83,7 +83,7 @@ jobs:
         with:
           architectures: ${{ env.ARCHITECTURES }}
           container-registry-password: ${{ secrets.GITHUB_TOKEN }}
-          registry-prefix: ghcr.io/johannvr
+          registry-prefix: ghcr.io/florente96
           image-name: ${{ env.IMAGE_NAME }}
           image-tags: |
             ${{ env.RELEASE_TAG }}
