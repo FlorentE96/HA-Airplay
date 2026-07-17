@@ -1,7 +1,7 @@
 name: "Airplay 2 for Home Assistant - Flo"
 description: "Adds Airplay 2 capabilities to Home Assistant"
 url: https://github.com/FlorentE96/HA-Airplay/tree/main/Airplay2
-version: "2.0.6"
+version: "2.0.7"
 slug: "airplay2"
 init: false
 arch:
