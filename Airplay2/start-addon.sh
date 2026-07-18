@@ -56,4 +56,4 @@ OUTPUT_PATH="/etc/shairport-sync.conf"
 #     echo "Syslogd-bundle reference removed from user contents."
 # fi
 
-exec shairport-sync -a Floup
+exec shairport-sync -a Floup -o pulseaudio -- -d hw:0,0 -c /etc/shairport-sync.conf
