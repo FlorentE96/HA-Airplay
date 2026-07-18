@@ -26,7 +26,7 @@ general =
 //			"soxr" uses the SoX library to recode a packet of frames to a new packet containing more or fewer frames. This needs a processor with fast floating point capability.
 //			"basic" causes the simple removal or insertion of frames in a packet of frames. Not recommended.
 //	interpolation = "auto"; // aka "stuffing". Default is "auto". Alternatives are "vernier", "basic" or "soxr". Choose "soxr" only if you have a reasonably fast processor and Shairport Sync has been built with "soxr" support.
-//	output_backend = "alsa"; // Run "shairport-sync -h" to get a list of all output_backends, e.g. "alsa", "pipe", "stdout". The default is the first one.
+	output_backend = "alsa"; // Run "shairport-sync -h" to get a list of all output_backends, e.g. "alsa", "pipe", "stdout". The default is the first one.
 //	mdns_backend = "avahi"; // Run "shairport-sync -h" to get a list of all mdns_backends. The default is the first one.
 //	interface = "name"; // Use this advanced setting to specify the interface on which Shairport Sync should provide its service. Leave it commented out to get the default, which is to select the interface(s) automatically.
 //	port = <number>; // Listen for service requests on this port. 5000 for AirPlay 1, 7000 for AirPlay 2

@@ -1,14 +1,19 @@
 name: "Airplay 2 for Home Assistant - Flo"
 description: "Adds Airplay 2 capabilities to Home Assistant"
 url: https://github.com/FlorentE96/HA-Airplay/tree/main/Airplay2
-version: "2.0.8"
+version: "2.0.9"
 slug: "airplay2"
-init: false
+init: true
+realtime: true
 arch:
   - aarch64
   - amd64
   - armv7
 boot: "auto"
+devices: 
+  - "/dev/snd"
+privileged:
+  - "SYS_NICE"
 host_network: true
 audio: true
 options:
